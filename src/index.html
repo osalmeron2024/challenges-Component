@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/icon"
+      href="../assets/images/favicon.ico"
+    />
+    <link rel="stylesheet" href="css/output.css" />
+    <script defer src="js/codigo.js"></script>
+    <title>Results summary component</title>
+  </head>
+  <body>
+    <main
+      class="m-auto mb-8 mainContainerFlex overflow-hidden md:flex-row md:w-[645px] md:h-[450px] md:m-auto md:mb-10 md:mt-5 md:rounded-3xl"
+    >
+      <div
+        class="flex flex-col justify-center place-content-center bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue rounded-b-3xl md:rounded-3xl md:w-[600px]"
+      >
+        <p
+          class="py-3 text-lightLavender text-[18px] font-HankenGrotesk-Bold self-center"
+        >
+          Your Result
+        </p>
+        <div
+          class="w-[140px] h-[140px] relative rounded-full bg-gradient-to-b from-lightRoyalBlue to-lightSlateBlue self-center md:mt-5 md:mb-5 md:w-[153px] md:h-[153px]"
+        >
+          <p
+            class="text-center font-HankenGrotesk-ExtraBold text-whiteHsl text-5xl pt-10 md:pt-12"
+          >
+            76
+          </p>
+          <p class="text-center text-lightLavender pt-2">of 100</p>
+        </div>
+        <p
+          class="pt-5 self-center text-whiteHsl text-[22px] font-HankenGrotesk-ExtraBold"
+        >
+          Great
+        </p>
+        <p
+          class="pt-2 pb-8 px-10 text-center text-lightLavender font-HankenGrotesk-Medium text-base self-center md:pt-4"
+        >
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div
+        class="flex flex-col gap-4 justify-center content-center items-center px-8 md:w-full md:h-full"
+      >
+        <div
+          class="self-start pt-5 font-HankenGrotesk-ExtraBold text-[18px] md:w-full md:h-[50px] md:pt-0"
+        >
+          <p>Summary</p>
+        </div>
+        <div
+          class="flex border w-full rounded-lg p-3 transition delay-150 bg-lightRedTransparency hover:bg-paleBlue duration-300 font-HankenGrotesk-Medium"
+        >
+          <img src="../assets/images/icon-reaction.svg" alt="Reaction" />
+          <p class="block text-lightRed pl-2">Reaction</p>
+          <p class="text-darkGrayBlueAlpha text-right w-full">
+            <span class="font-bold text-black">80</span> / 100
+          </p>
+        </div>
+        <div
+          class="flex flex-row border w-full rounded-lg p-3 bg-orangeYellowTransparency font-HankenGrotesk-Medium transition delay-150 hover:bg-paleBlue duration-300"
+        >
+          <img src="../assets/images/icon-memory.svg" alt="Memory" />
+          <p class="text-orangeYellow pl-2">Memory</p>
+          <p class="text-darkGrayBlueAlpha text-right w-full">
+            <span class="font-bold text-black">92</span> / 100
+          </p>
+        </div>
+        <div
+          class="flex flex-row border w-full rounded-lg p-3 font-HankenGrotesk-Medium bg-greenTealTransparency transition delay-150 hover:bg-paleBlue duration-300"
+        >
+          <img src="../assets/images/icon-verbal.svg" alt="Verbal" />
+          <p class="text-greenTeal pl-2">Verbal</p>
+          <p class="text-darkGrayBlueAlpha text-right w-full">
+            <span class="font-bold text-black">61</span> / 100
+          </p>
+        </div>
+        <div
+          class="flex flex-row border w-full rounded-lg p-3 font-HankenGrotesk-Medium bg-cobaltBlueTransparency transition delay-150 hover:bg-paleBlue duration-300"
+        >
+          <img src="../assets/images/icon-visual.svg" alt="VIsual" />
+          <p class="text-cobaltBlue pl-2">Visual</p>
+          <p class="text-darkGrayBlueAlpha text-right w-full">
+            <span class="font-bold text-black">72</span> / 100
+          </p>
+        </div>
+        <div class="w-full mt-2">
+          <button
+            class="border w-full rounded-3xl p-3 transition delay-150 bg-darkGrayBlue text-whiteHsl font-HankenGrotesk-Medium text-[18px] hover:bg-lightRoyalBlue duration-300"
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <div class="text-center font-HankenGrotesk-Medium text-sm">
+      Challenge by
+      <a
+        class="font-bold text-lightRoyalBlue"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a class="font-bold text-lightRoyalBlue" href="#">Onesis Salmerón</a>.
+      <p class="pt-2 text-orangeYellow">onesis.salmeron@hotmail.com - osalmeronb20@gmail.com</p>
+    </div>
+  </body>
+</html>
